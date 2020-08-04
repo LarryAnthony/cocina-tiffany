@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.tela{
+    background-image: url("./images/franja-tela.jpg");
+    background-repeat: repeat;
+    height: 110px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 40px;
+    background: #F6343F;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0px 90px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Muli;
+    color: white;
+}
+#logo{
+    border-bottom: 1px solid rgb(136, 131, 131);
+}
+.logo{
+    background-image: url("./images/cocinera.jpg");
+    background-size: 220px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 240px;
+}
+.logo-name{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 30px;
+    font-family: "Oswald";
+    letter-spacing: 1px;
+
+}
