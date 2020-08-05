@@ -87,3 +87,8 @@
 .content button{
     padding: 3px 8px;
 }
+@media (max-width: 600px){
+    #menu{
+        height: 270px;
+    }
+}
