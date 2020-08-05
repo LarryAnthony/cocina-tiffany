@@ -74,11 +74,10 @@
     margin: 5px 15px;
     border: 2px solid #ccc;
     border-radius: 10px;
+    overflow: hidden;
 }
 .caja img{
-    width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    /* height: 350px; */
+    width: 101%;
 }
 .content{
     overflow: hidden;
